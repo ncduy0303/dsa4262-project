@@ -1,0 +1,26 @@
+[
+  {
+    "approach": "site_mean9",
+    "model": "hist_boosting",
+    "sites": 25350,
+    "max_abs_difference": 0.0,
+    "output": "artifacts/validation/site_mean9_predictions.csv",
+    "model_path": "experiments/data0_baselines_v1/20261005T075025_site_mean9_hist_boosting_e659f93f/model.joblib"
+  },
+  {
+    "approach": "read9_noisy_or",
+    "model": "hist_boosting",
+    "sites": 25350,
+    "max_abs_difference": 0.0,
+    "output": "artifacts/validation/read9_noisy_or_predictions.csv",
+    "model_path": "experiments/data0_baselines_v1/20261005T075029_read9_noisy_or_hist_boosting_7142a1cc/model.joblib"
+  },
+  {
+    "approach": "read15_noisy_or",
+    "model": "hist_boosting",
+    "sites": 25350,
+    "max_abs_difference": 0.0,
+    "output": "artifacts/validation/read15_noisy_or_predictions.csv",
+    "model_path": "experiments/data0_baselines_v1/20261005T075050_read15_noisy_or_hist_boosting_c6e9c56d/model.joblib"
+  }
+]

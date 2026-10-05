@@ -1,0 +1,25 @@
+{
+  "run_path": "experiments/data0_m6anet_pretrained_v1/20261005T090119_official_m6anet_m6anet_pretrained_HCT116_RNA002_c7353afe",
+  "metrics": {
+    "sites": 25350,
+    "positive_sites": 1103,
+    "prevalence": 0.043510848126232744,
+    "average_precision": 0.5063945551069602,
+    "roc_auc": 0.9346209928261353,
+    "pr_auc_trapezoid": 0.505930010777156,
+    "log_loss": 0.3151679735183829,
+    "brier_score": 0.09248829529335484,
+    "fraction_score_ge_099": 0.00611439842209073,
+    "fraction_score_eq_1": 0.0,
+    "unique_scores": 25342,
+    "depth_score_spearman": -0.022530828160380587,
+    "mean_sampling_std": null,
+    "prediction_coverage": 1.0,
+    "prediction_seconds": 52.73550195799908,
+    "total_seconds": 74.85907016700367,
+    "sampling_iterations": 1000,
+    "independent_test_claim": false
+  },
+  "checkpoint": "HCT116_RNA002",
+  "independence": "unknown; potentially overlaps course HCT116 sites"
+}

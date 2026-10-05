@@ -1,0 +1,5 @@
+*
+!Dockerfile
+!environment.yml
+!Dockerfile.locked
+!conda-explicit-linux-64.txt

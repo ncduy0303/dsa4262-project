@@ -1,0 +1,82 @@
+{
+  "run_path": "experiments/data0_m6anet_scratch_v2/20261005T103446_official_m6anet_m6anet_scratch_119c482f",
+  "split": {
+    "test": {
+      "sites": 24694,
+      "genes": 770,
+      "positive_sites": 1107,
+      "prevalence": 0.04482870332874382
+    },
+    "train": {
+      "sites": 71794,
+      "genes": 2307,
+      "positive_sites": 3265,
+      "prevalence": 0.045477337939103545
+    },
+    "val": {
+      "sites": 25350,
+      "genes": 775,
+      "positive_sites": 1103,
+      "prevalence": 0.043510848126232744
+    }
+  },
+  "metrics": {
+    "sites": 25350,
+    "positive_sites": 1103,
+    "prevalence": 0.043510848126232744,
+    "average_precision": 0.36776119229850673,
+    "roc_auc": 0.8657489232996121,
+    "pr_auc_trapezoid": 0.367181209746838,
+    "log_loss": 0.4497156503883814,
+    "brier_score": 0.1448623196570554,
+    "fraction_score_ge_099": 0.0014595660749506904,
+    "fraction_score_eq_1": 0.0,
+    "unique_scores": 25339,
+    "depth_score_spearman": -0.05044000084491647,
+    "mean_sampling_std": 0.04230964926302064,
+    "fit_seconds": 115.72034826200024,
+    "prediction_seconds": 109.41234654899972,
+    "normalization_seconds": 64.93548161300009,
+    "container_seconds": 292.46527670799696,
+    "adapter_seconds": 39.844401708003716,
+    "total_seconds": 335.1382365000027,
+    "epochs": 1,
+    "test_evaluated": false
+  },
+  "timing": {
+    "training_sites": 71794,
+    "validation_sites": 25350,
+    "sampled_sites_per_epoch": 137058,
+    "training_batches": 536,
+    "validation_batches_per_pass": 100,
+    "normalization_seconds": 64.93548161300009,
+    "normalization_motifs": 66,
+    "parameter_count": 7697,
+    "initial_state_sha256": "464a7032e06e6d73f1be5ef6f9a2b141026a82f36fcf1593526ba055db0b8473",
+    "pretrained_weights_loaded": false,
+    "test_evaluated": false,
+    "normalization_partition": "train",
+    "worker_seeding": "torch.initial_seed modulo 2**32; numpy and random",
+    "threads": 4,
+    "workers": 2,
+    "train": {
+      "compute_time": 115.65897512435913,
+      "avg_loss": 0.8183416117594313,
+      "roc_auc": 0.7408499176775079,
+      "pr_auc": 0.6624984015145208
+    },
+    "validation": {
+      "compute_time": 109.39379525184631,
+      "roc_auc": 0.8657489232996121,
+      "pr_auc": 0.367181209746838,
+      "avg_loss": 0.44971567392349243
+    },
+    "train_seconds": 115.72034826200024,
+    "validation_seconds": 109.41234654899972,
+    "container_work_seconds": 290.3991339659997,
+    "final_state_sha256": "22fd122840d329bb959062f4b11c8b13f1821bc603c0616bef17cda65c24d112",
+    "main_process_peak_rss_mib": 390.625,
+    "largest_child_peak_rss_mib": 285.73046875
+  },
+  "test_caveat": "Newly held out from v2 training; used in historical v1 training."
+}

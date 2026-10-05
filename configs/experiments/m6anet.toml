@@ -1,0 +1,17 @@
+experiment_set = "data0_m6anet_pretrained_v1"
+purpose = "Official pretrained HCT116 RNA002 model on the unchanged data0 validation sites"
+model = "m6anet_pretrained_HCT116_RNA002"
+approach = "official_m6anet"
+seed = 42
+output_dir = "experiments"
+input = "data/data0/dataset0.json"
+baseline_summary = "docs/results/summary.json"
+image = "dsa4262-m6anet:2.1.0"
+num_iterations = 1000
+n_processes = 1
+batch_size = 64
+save_per_batch = 1000000000
+threads = 4
+pretrained_model = "HCT116_RNA002"
+training_overlap = "unknown; potentially overlaps course HCT116 sites"
+chemistry = "RNA002 checkpoint; course input chemistry provenance unverified"

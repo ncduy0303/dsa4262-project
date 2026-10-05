@@ -1,0 +1,24 @@
+[project]
+name = "m6a-project"
+version = "0.1.0"
+description = "Reproducible classical site and read-level m6A baselines"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy>=2.0,<3", "pandas>=2.2,<3", "scipy>=1.14,<2",
+  "scikit-learn>=1.6,<1.8", "joblib>=1.4,<2", "matplotlib>=3.9,<4",
+  "pyarrow>=18,<24", "threadpoolctl>=3.5,<4"
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+notebook = ["jupyterlab>=4,<5", "ipykernel>=6,<8", "nbclient>=0.10,<1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,90 @@
+{
+  "data0": {
+    "metadata_sites": 121838,
+    "json_sites": 121838,
+    "labels": {
+      "0": 116363,
+      "1": 5475
+    },
+    "read_count_total": 11027106,
+    "reads_min": 20,
+    "reads_median": 47,
+    "reads_max": 991,
+    "reads_below_20": 0,
+    "read_widths": {
+      "9": 11027106
+    },
+    "unique_7mers": 288,
+    "missing_json": 0,
+    "missing_metadata": 0,
+    "duplicate_sites": 0,
+    "multi_motif_sites": 0,
+    "nonfinite_values": 0,
+    "offset_mismatches": 0,
+    "read_count_mismatches": 0,
+    "sha256": "0cb3f3731dc1f20b1c014b76ab4bdf5b7b55ef956de3fbb016b053cf628e59d8",
+    "positive_percent": 4.493671925015184
+  },
+  "data1": {
+    "metadata_sites": 90810,
+    "json_sites": 90810,
+    "labels": {
+      "0": 84217,
+      "1": 6593
+    },
+    "read_count_total": 7907952,
+    "reads_min": 20,
+    "reads_median": 40,
+    "reads_max": 994,
+    "reads_below_20": 0,
+    "read_widths": {
+      "9": 7907952
+    },
+    "unique_7mers": 288,
+    "missing_json": 0,
+    "missing_metadata": 0,
+    "duplicate_sites": 0,
+    "multi_motif_sites": 0,
+    "nonfinite_values": 0,
+    "offset_mismatches": 0,
+    "read_count_mismatches": 0,
+    "sha256": "f4fd9e8fa88205d3bfe2ae8bd2e1615d3cd3a17d6f85e39fadc62faeffeaabe3",
+    "positive_percent": 7.260213632859817
+  },
+  "data2": {
+    "metadata_sites": 1323,
+    "json_sites": 1323,
+    "labels": {
+      "1.0": 189,
+      "0.95": 189,
+      "0.75": 189,
+      "0.7": 189,
+      "0.5": 189,
+      "0.25": 189,
+      "0.0": 189
+    },
+    "read_count_total": 1171940,
+    "reads_min": 26,
+    "reads_median": 814,
+    "reads_max": 3438,
+    "reads_below_20": 0,
+    "read_widths": {
+      "9": 1171940
+    },
+    "unique_7mers": 139,
+    "missing_json": 0,
+    "missing_metadata": 0,
+    "duplicate_sites": 0,
+    "multi_motif_sites": 0,
+    "nonfinite_values": 0,
+    "offset_mismatches": 0,
+    "read_count_mismatches": 0,
+    "sha256": "a0f8bf6ba4e01831d333f3d847e34223aa51e7d173a8cde805e269c7f0943be6"
+  },
+  "cross_source": {
+    "data0_data1_shared_sites": 67320,
+    "shared_site_label_disagreements": 3872,
+    "data1_sites_without_data0_transcript_gene_mapping": 15137,
+    "data0_transcripts_with_multiple_gene_ids": 0
+  }
+}

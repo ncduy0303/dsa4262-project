@@ -1,0 +1,36 @@
+experiment_set = "data0_baselines_v1"
+purpose = "Compare mean signals, weakly supervised reads, and fixed PCA sequence context"
+input = "data/data0/dataset0.json"
+labels = "data/data0/data.info.labelled"
+cache_dir = "artifacts/cache"
+output_dir = "experiments"
+seed = 42
+n_splits = 5
+fold = 0
+n_reads = 20
+repetitions = 5
+threads = 4
+approaches = ["site_mean9", "read9_noisy_or", "read15_noisy_or"]
+models = ["logistic", "hist_boosting", "random_forest"]
+include_dummy = true
+include_matched_control = true
+
+[model_params.logistic]
+C = 1.0
+max_iter = 500
+solver = "lbfgs"
+
+[model_params.hist_boosting]
+max_iter = 100
+max_leaf_nodes = 31
+learning_rate = 0.1
+l2_regularization = 1.0
+early_stopping = false
+
+[model_params.random_forest]
+n_estimators = 100
+max_depth = 12
+min_samples_leaf = 20
+max_samples = 0.25
+max_features = "sqrt"
+oob_score = false

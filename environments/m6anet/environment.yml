@@ -1,0 +1,14 @@
+name: m6anet-benchmark
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+dependencies:
+  - python=3.8
+  - m6anet=2.1.0
+  - pytorch::pytorch=1.6.0=py3.8_cpu_0
+  - cpuonly
+  - mkl=2023.2
+  - numpy<1.24
+  - pandas<2
+  - setuptools<81

@@ -1,0 +1,76 @@
+{
+  "run_path": "experiments/data0_m6anet_full_v2/20261005T104640_official_m6anet_m6anet_scratch_c7794b10",
+  "split": {
+    "test": {
+      "sites": 24694,
+      "genes": 770,
+      "positive_sites": 1107,
+      "prevalence": 0.04482870332874382
+    },
+    "train": {
+      "sites": 71794,
+      "genes": 2307,
+      "positive_sites": 3265,
+      "prevalence": 0.045477337939103545
+    },
+    "val": {
+      "sites": 25350,
+      "genes": 775,
+      "positive_sites": 1103,
+      "prevalence": 0.043510848126232744
+    }
+  },
+  "metrics": {
+    "sites": 25350,
+    "positive_sites": 1103,
+    "prevalence": 0.043510848126232744,
+    "average_precision": 0.4649145854351569,
+    "roc_auc": 0.9140301717280238,
+    "pr_auc_trapezoid": 0.46422949105237776,
+    "log_loss": 0.30107575030652783,
+    "brier_score": 0.08834272182691899,
+    "fraction_score_ge_099": 0.006390532544378698,
+    "fraction_score_eq_1": 0.0,
+    "unique_scores": 25334,
+    "depth_score_spearman": -0.032840102556168996,
+    "mean_sampling_std": 0.045913277880746964,
+    "fit_seconds": 395.9609848440009,
+    "prediction_seconds": 81.45028508200221,
+    "normalization_seconds": 69.55768365599988,
+    "container_seconds": 620.6102882080013,
+    "adapter_seconds": 41.353006750010536,
+    "total_seconds": 664.9588073329942,
+    "epochs": 20,
+    "best_epoch": 15,
+    "test_evaluated": false
+  },
+  "timing": {
+    "training_sites": 71794,
+    "validation_sites": 25350,
+    "sampled_sites_per_epoch": 137058,
+    "training_batches": 536,
+    "parameter_count": 7697,
+    "initial_state_sha256": "464a7032e06e6d73f1be5ef6f9a2b141026a82f36fcf1593526ba055db0b8473",
+    "normalization_seconds": 69.55768365599988,
+    "cache_seconds": 60.799646694999865,
+    "cache_equivalence_verified": true,
+    "normalization_partition": "train",
+    "pretrained_weights_loaded": false,
+    "test_evaluated": false,
+    "fixed_validation_seed": 1042,
+    "threads": 4,
+    "workers": 2,
+    "epochs_completed": 20,
+    "best_epoch": 15,
+    "best_val_loss": 0.3010757863521576,
+    "stop_reason": "validation_loss_early_stopping",
+    "checkpoint_predictions_reproduced": true,
+    "train_seconds": 395.9609848440009,
+    "validation_seconds": 81.45028508200221,
+    "container_work_seconds": 617.676373323,
+    "final_state_sha256": "363c0b2a3aeffe37451bc6c935be70513c41c26582205e5cf46319c9cc9566a5",
+    "main_process_peak_rss_mib": 820.80859375,
+    "largest_child_peak_rss_mib": 713.7109375
+  },
+  "test_caveat": "Newly held out from v2 training; used in historical v1 training."
+}

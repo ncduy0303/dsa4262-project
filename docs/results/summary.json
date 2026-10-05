@@ -1,0 +1,6 @@
+{
+  "experiment_set": "data0_baselines_v1",
+  "runs": 13,
+  "same_validation_keys_verified": true,
+  "best_validation_run": "experiments/data0_baselines_v1/20261005T075025_site_mean9_hist_boosting_e659f93f"
+}
